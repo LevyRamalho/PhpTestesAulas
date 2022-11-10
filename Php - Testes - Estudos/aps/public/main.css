@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background: #434a54;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+main {
+  background: #656d78;
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  border-radius: 2rem;
+  display: grid;
+  grid-column: auto auto auto;
+  grid-template-rows: 15rem 20rem 20rem;
+}
+/* container */
+img#logo {
+  grid-column: 3;
+  grid-row: 2;
+  margin-left: 10rem;
+  width: 30rem;
+}
+
+div#name {
+  grid-column: 1/2;
+  grid-row: 2;
+  margin-left: 7rem;
+}
+.links {
+  grid-column: 1/2;
+  grid-row: 3;
+  margin-left: 9rem;
+  margin-top: 20rem ;
+}
+/* child */
+p,
+h1,
+a {
+  font-family: Archivo;
+}
+
+h1 {
+  color: #fff;
+  font-size: 10rem;
+}
+p {
+  color: #aab2bd;
+  font-size: 2.5rem;
+  margin: 3rem 0 0 2rem;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  padding: 3rem;
+  border-radius: 2rem;
+  box-shadow: .2rem .3rem 8px rgb(65, 62, 62);
+}
+a.became {
+  background: #5d9cec;
+  margin-left: 2rem;
+}
+a.student {
+  background: #aab2bd;
+}
+a img{
+    width: 2.5rem;
+    padding-right: 0.5rem;
+}
+a.became:hover {
+    background: #4a89dc;
+}
+a.student:hover{
+    background: #656d79;
+}
+
+h1:after{
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .7s infinite;
+
+}
+@keyframes pisca{
+  0%, 100%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+}

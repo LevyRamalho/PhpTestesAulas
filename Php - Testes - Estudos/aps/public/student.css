@@ -1,0 +1,210 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.img-top{
+    margin-top: 2rem;
+}
+
+body{
+    background: #656D78;
+}
+body,
+input,
+button,
+textarea,
+select{
+    /* font: 500 1.6rem Poppins; */
+    
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 2rem;
+    color: #9c9ba6;
+}
+header{
+    background: #434a54;
+    width: 100vw;
+    height: 25rem;
+    box-shadow: .2rem .3rem 8px rgb(65, 62, 62);
+    padding: 3rem;
+}
+div.topbar{
+    display: flex;
+    padding: 0rem 0 0 5.4rem;
+}
+div#textos{
+    margin: 2rem 0 0 4rem;
+    width: 50rem;
+}
+
+/* child */
+div header img{
+    width: 4rem;
+    margin-top: -10rem;
+}
+h4, p{
+    color: #fff;
+    padding-bottom: 2rem;
+}
+h4{
+    font: 700 3rem Archivo;
+}
+p{
+    font: 400 1.5rem Archivo;
+    font-style: italic;
+}
+/* search-teacher */
+#search-teachers{
+    
+    margin-top: .5rem;
+    margin: .2rem auto;
+    padding: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between center;
+    gap: 16px;
+    width: 70vw;
+}
+
+
+#search-teachers .select-block{
+    margin-top: 0;
+}
+.select-block label,
+.input-block label,
+.textarea-block label{
+    font-size:  1.4rem;
+    color: #9c9ba6;
+}
+
+.input-block input,
+.select-block select,
+.textarea-block textarea{
+    width: 100%;
+    height: 5.6rem;
+    margin-top: 0.8rem;
+    border-radius: 0.8rem;
+    background:#fff;
+    border: 1px solid #434a54;
+    outline: 0;
+    padding:  0 5rem .16rem;
+    font: 1.6rem Archivo;
+}
+
+ 
+.select-block select option{
+    background-color: #fff;
+    border-radius: 10rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+
+.items2{
+    background-color: #fff;
+    border-radius: 10rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+
+
+
+
+
+#page-study main{
+    margin: 3.2rem;
+    width: 70%;
+    margin: auto auto;
+
+
+}
+
+.teacher-item{
+    background-color: #fff;
+    border: 1px xolid #e6e6f0;
+    border-radius: 0.8rem;
+    margin-top: 4.4rem;
+    margin-left: 5rem;
+    
+}
+
+.teacher-item div#teacher{
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+}
+.teacher-item div#teacher img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+.teacher-item div#teacher div#information{
+    margin-left: 2.4rem;
+}
+
+.teacher-item div#teacher div#information strong{
+    font: 700 2.4rem Archivo;
+    display: block;
+    color:  #5d9cec;
+}
+
+
+.teacher-item div#teacher div#information span{
+    font-size: 1.6rem;
+    display: block;
+    margin-top: .4rem;
+}
+.teacher-item > p{
+    padding: 1.2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    text-align: justify;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: #9c9ba6;
+}
+.teacher-item footer{
+    padding: 3.2rem;
+    background:#fafafc;
+    border-top: 1px solid #e6e6f0;
+    margin-top: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teacher-item footer p{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color:   #9c9ba6;
+}
+
+.teacher-item footer p strong{
+    font-size: 1.6rem;
+    color:  #4a89dc;
+    display: block;
+}
+
+.teacher-item footer .button{
+    width: 20rem;
+    height: 5.6rem;
+    background:  #04d361;
+    color:  #fff;
+    border: 0;
+    border-radius: 2rem;
+    cursor: pointer;
+    font: 700 1.4rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content:  space-evenly;
+    text-decoration: none;
+    transition: background 0.2s;
+    margin-left: 1.6rem;
+}
+
+.teacher-item footer .button:hover{
+    background-color: #04bf58;
+}
+
+

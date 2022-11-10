@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 700 & display = swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/*Parte da barra de menu serve para todas as páginas*/
+header{
+    background-color: #434a54;
+}
+
+.titulo{
+    margin-top: 10%;
+    color: #ffff;
+}
+
+.titulo h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: -75%;
+}
+
+.titulo p{
+    margin-left: -75%;
+}
+
+#menu p{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*tela de cadastro*/
+#corpo{
+    background:  #656d78;
+}
+
+.formulario-bg{
+    border-radius: 15px;
+    width: 70%;
+}
+
+.formulario-bg h1,h2{
+    font-size: 25PX;
+    font-weight: 600;
+    padding-top: 5%;
+    text-align: center;
+    color: #5d9cec;
+}
+
+.formulario-bg label{
+    font-weight: 600;
+    margin-left: 16%;
+    margin-top: 5%;
+}
+
+
+.formulario-bg input{
+    border-radius: 15px;
+    border: 1px solid #bababa;
+    padding: 15px;
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.formulario-bg select{
+    border-radius: 15px;
+    border: 1px solid #bababa;
+    height: 60px;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 20px;
+}
+.formulario-bg textarea{
+    border: 1px solid #bababa;
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 15px;
+}
+
+input[type=submit]{
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffff;
+    background-color: #5d9cec;
+    float: right;
+    width: 40%;
+    margin-right: 30%;
+}
+
+.aviso p{
+    font-size: 30px;
+    width: 27%;
+    margin: -6% 0 0 10%;
+}
+
+.aviso{
+    display: inline-block;
+}
